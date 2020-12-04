@@ -2,11 +2,11 @@ import spotipy
 from spotipy import util
 from spotipy.oauth2 import SpotifyClientCredentials
 
-client_id = "e31b1a401de04f70ae0e8b00c14425ca"  # Need to create developer profile
-client_secret = "9af22fa28aec4e018c8829fdf8aa658a"
-username = "21tqxjahbydtkdwzchxyhuvhy"
+client_id =   # Need to create developer profile
+client_secret = 
+username = 
 scope = 'user-library-read playlist-read-private playlist-read-collaborative'
-redirect_uri = "http://localhost:8888/callback/"
+redirect_uri = 
 client_credentials_manager = SpotifyClientCredentials(client_id=client_id,
                                                       client_secret=client_secret)
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
